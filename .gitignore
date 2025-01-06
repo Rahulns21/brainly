@@ -47,3 +47,4 @@ coverage/
 *.d.ts
 *.d.ts.map
 db.ts
+.env
