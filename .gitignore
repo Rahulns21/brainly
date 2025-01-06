@@ -46,3 +46,4 @@ coverage/
 *.js.map
 *.d.ts
 *.d.ts.map
+db.ts
