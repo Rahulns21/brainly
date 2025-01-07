@@ -47,3 +47,6 @@ coverage/
 *.d.ts
 *.d.ts.map
 .env
+
+# But include tailwind.config.js
+!tailwind.config.js
