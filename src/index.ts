@@ -4,11 +4,13 @@ import { UserModel, ContentModel, LinkModel } from "./db";
 import { userMiddleware } from "./middleware";
 import dotenv from "dotenv";
 import { random } from "./utils";
+import cors from "cors";
 
 dotenv.config();
 
 const app = express();
 app.use(express.json());
+app.use(cors());
 
 app.post("/api/v1/signup", async (req, res) => {
     //add zod validation
